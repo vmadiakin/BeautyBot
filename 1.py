@@ -16,7 +16,7 @@ def verify_data(test_text, list_keys):
         if key not in list_keys:
             raise ValueError(f'Ошибка: ключ "{key}" не соответствует значениям из list_keys')
 
-    # Если все проверки пройдены, возвращаем тест
+    # Если все проверки пройдены, возвращаем текст
     return test_text
 
 
